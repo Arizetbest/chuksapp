@@ -28,4 +28,4 @@ jobs:
           context: .  # Ensure this is set to the root of your repository
           file: ./Dockerfile  # Ensure the path to the Dockerfile is correct
           push: true
-          tags: ${{ secrets.DOCKERHUB_USERNAME }}/choks-image:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/arizeapp-image:vi
